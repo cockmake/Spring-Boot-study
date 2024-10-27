@@ -1,10 +1,10 @@
 package com.forwardforever.springbegin.service;
 
-import com.forwardforever.springbegin.domain.Headline;
+import com.forwardforever.springbegin.domain.entity.Headline;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.forwardforever.springbegin.dto.ArticleFindForm;
-import com.forwardforever.springbegin.dto.NewArticleForm;
-import com.forwardforever.springbegin.vo.ArticleVO;
+import com.forwardforever.springbegin.domain.dto.ArticleFindForm;
+import com.forwardforever.springbegin.domain.dto.NewArticleForm;
+import com.forwardforever.springbegin.domain.vo.ArticleVO;
 
 import java.util.Map;
 

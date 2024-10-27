@@ -2,9 +2,9 @@ package com.forwardforever.springbegin.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.forwardforever.springbegin.domain.User;
-import com.forwardforever.springbegin.dto.UserLoginForm;
-import com.forwardforever.springbegin.dto.UserRegisterForm;
+import com.forwardforever.springbegin.domain.entity.User;
+import com.forwardforever.springbegin.domain.dto.UserLoginForm;
+import com.forwardforever.springbegin.domain.dto.UserRegisterForm;
 import com.forwardforever.springbegin.mapper.UserMapper;
 import com.forwardforever.springbegin.service.UserService;
 import org.springframework.stereotype.Service;

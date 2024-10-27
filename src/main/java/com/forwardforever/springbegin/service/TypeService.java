@@ -1,6 +1,6 @@
 package com.forwardforever.springbegin.service;
 
-import com.forwardforever.springbegin.domain.Type;
+import com.forwardforever.springbegin.domain.entity.Type;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 

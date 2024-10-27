@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.forwardforever.springbegin.mapper.HeadlineMapper">
 
-  <resultMap id="BaseResultMap" type="com.forwardforever.springbegin.domain.Headline">
+  <resultMap id="BaseResultMap" type="com.forwardforever.springbegin.domain.entity.Headline">
     <id property="hid" column="h_id" jdbcType="INTEGER"/>
     <result property="title" column="title" jdbcType="VARCHAR"/>
     <result property="article" column="article" jdbcType="VARCHAR"/>
@@ -22,7 +22,7 @@
     create_time, update_time, version, is_deleted
   </sql>
 
-  <select id="findArticleWithPastime" resultType="com.forwardforever.springbegin.vo.HeadlineVO">
+  <select id="findArticleWithPastime" resultType="com.forwardforever.springbegin.domain.vo.HeadlineVO">
     select hid, title, type, page_views, TIMESTAMPDIFF(SECOND, create_time, now()) as pastime, u.nick_name as author,
     IF(publisher = #{userId}, 1, 0) as is_owner
     from news_headline h
@@ -38,7 +38,7 @@
     order by create_time desc
   </select>
 
-  <select id="findArticleDetailById" resultType="com.forwardforever.springbegin.vo.ArticleVO">
+  <select id="findArticleDetailById" resultType="com.forwardforever.springbegin.domain.vo.ArticleVO">
     select h.hid,
            h.title,
            h.article,

@@ -1,11 +1,11 @@
 package com.forwardforever.springbegin.mapper;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.forwardforever.springbegin.domain.Headline;
+import com.forwardforever.springbegin.domain.entity.Headline;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.forwardforever.springbegin.dto.ArticleFindForm;
-import com.forwardforever.springbegin.vo.ArticleVO;
-import com.forwardforever.springbegin.vo.HeadlineVO;
+import com.forwardforever.springbegin.domain.dto.ArticleFindForm;
+import com.forwardforever.springbegin.domain.vo.ArticleVO;
+import com.forwardforever.springbegin.domain.vo.HeadlineVO;
 import org.apache.ibatis.annotations.Param;
 
 

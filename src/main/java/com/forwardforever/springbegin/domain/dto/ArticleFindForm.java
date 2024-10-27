@@ -1,4 +1,4 @@
-package com.forwardforever.springbegin.dto;
+package com.forwardforever.springbegin.domain.dto;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;

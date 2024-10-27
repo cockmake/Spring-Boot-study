@@ -1,10 +1,10 @@
 package com.forwardforever.springbegin.controller;
 
-import com.forwardforever.springbegin.dto.ArticleFindForm;
-import com.forwardforever.springbegin.dto.NewArticleForm;
-import com.forwardforever.springbegin.dto.Result;
+import com.forwardforever.springbegin.domain.dto.ArticleFindForm;
+import com.forwardforever.springbegin.domain.dto.NewArticleForm;
+import com.forwardforever.springbegin.domain.dto.Result;
 import com.forwardforever.springbegin.service.HeadlineService;
-import com.forwardforever.springbegin.vo.ArticleVO;
+import com.forwardforever.springbegin.domain.vo.ArticleVO;
 import jakarta.validation.Valid;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;

@@ -1,4 +1,4 @@
-package com.forwardforever.springbegin.dto;
+package com.forwardforever.springbegin.domain.dto;
 
 import com.forwardforever.springbegin.utils.HttpCodeEnum;
 import lombok.AllArgsConstructor;

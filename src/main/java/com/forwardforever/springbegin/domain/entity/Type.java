@@ -1,4 +1,4 @@
-package com.forwardforever.springbegin.domain;
+package com.forwardforever.springbegin.domain.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 

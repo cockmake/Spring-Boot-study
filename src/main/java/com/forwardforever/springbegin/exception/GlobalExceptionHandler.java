@@ -1,7 +1,7 @@
 package com.forwardforever.springbegin.exception;
 
 import com.auth0.jwt.exceptions.SignatureVerificationException;
-import com.forwardforever.springbegin.dto.Result;
+import com.forwardforever.springbegin.domain.dto.Result;
 import com.forwardforever.springbegin.utils.HttpCodeEnum;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

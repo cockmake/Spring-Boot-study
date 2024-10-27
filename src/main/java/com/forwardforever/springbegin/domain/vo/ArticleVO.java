@@ -1,4 +1,4 @@
-package com.forwardforever.springbegin.vo;
+package com.forwardforever.springbegin.domain.vo;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;

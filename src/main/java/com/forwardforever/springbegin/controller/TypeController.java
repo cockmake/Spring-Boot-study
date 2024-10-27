@@ -1,8 +1,8 @@
 package com.forwardforever.springbegin.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.forwardforever.springbegin.domain.Type;
-import com.forwardforever.springbegin.dto.Result;
+import com.forwardforever.springbegin.domain.entity.Type;
+import com.forwardforever.springbegin.domain.dto.Result;
 import com.forwardforever.springbegin.service.TypeService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

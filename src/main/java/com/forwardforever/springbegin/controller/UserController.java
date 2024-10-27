@@ -1,9 +1,9 @@
 package com.forwardforever.springbegin.controller;
 
-import com.forwardforever.springbegin.domain.User;
-import com.forwardforever.springbegin.dto.Result;
-import com.forwardforever.springbegin.dto.UserLoginForm;
-import com.forwardforever.springbegin.dto.UserRegisterForm;
+import com.forwardforever.springbegin.domain.entity.User;
+import com.forwardforever.springbegin.domain.dto.Result;
+import com.forwardforever.springbegin.domain.dto.UserLoginForm;
+import com.forwardforever.springbegin.domain.dto.UserRegisterForm;
 import com.forwardforever.springbegin.service.UserService;
 import com.forwardforever.springbegin.utils.HttpCodeEnum;
 import com.forwardforever.springbegin.utils.JWTUtils;

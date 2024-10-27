@@ -20,7 +20,6 @@ spring:
     type: redis
 
 
-
 mybatis-plus:
 
   global-config:

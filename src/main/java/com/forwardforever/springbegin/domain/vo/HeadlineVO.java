@@ -1,4 +1,4 @@
-package com.forwardforever.springbegin.vo;
+package com.forwardforever.springbegin.domain.vo;
 
 import lombok.Data;
 
