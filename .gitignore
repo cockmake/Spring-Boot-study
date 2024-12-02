@@ -37,4 +37,4 @@ build/
 *.env
 
 ### settings ###
-application-service.yml
+application-*.yml

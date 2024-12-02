@@ -1,5 +1,4 @@
 spring:
-
   application:
     name: spring-begin
   datasource:
@@ -9,6 +8,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   jackson:
     default-property-inclusion: non_null
+    time-zone: GMT+8
   data:
     redis:
       host: localhost
@@ -19,6 +19,11 @@ spring:
     type: redis
   jpa:
     open-in-view: false
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      enabled: true
 
 
 mybatis-plus:
@@ -43,6 +48,8 @@ server:
 jwt:
   expire-time: 120
   sign: make-forwardforever-top
+
+
 
 
 
